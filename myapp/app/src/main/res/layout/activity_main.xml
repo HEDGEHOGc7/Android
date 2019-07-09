@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/slow"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="WELCOME!"
+        android:textAlignment="center"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textSize="50dp" />
+
+    <CheckBox
+        android:id="@+id/id_checkbox_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="IOS"
+        android:textSize="30dp" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_checkbox_2"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:text="ANDROID"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_checkbox_3"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:text="OTHER"
+        android:textColor="#FFFFFF"
+
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/colorPrimary"
+        android:text="提交"
+        android:textSize="40dp"
+        android:textColor="#FFFFF0"
+        android:textAlignment="center" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:maxHeight="3dp"
+        android:minHeight="3dp" />
+
+
+
+
+
+</LinearLayout>
